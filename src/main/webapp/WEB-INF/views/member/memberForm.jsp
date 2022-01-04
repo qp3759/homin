@@ -197,14 +197,20 @@ $(function(){
          <tr>
             <td class="form_modify_text" align='right' height=40>패스워드</td>
             <td><input class="form_modify_input" type="password" id="pw" name='pw' placeholder='pw 입력' /></td>
-                     <span style="display: none;" id = "msg2">비밀번호는 8자리 ~ 20자리 이내로 입력해주세요.</span>
-                     <span style="display: none;" id = "msg3">비밀번호는 공백 없이 입력해주세요.</span>
-                     <span style="display: none;" id = "msg4">비밀번호는 영문,숫자, 특수문자를 혼합하여 입력해주세요</span>
+         </tr>
+         <tr>
+            <td colspan="2" style="text-align: center;"> <span style="display: none;" id = "msg2">비밀번호는 8자리 ~ 20자리 이내로 입력해주세요.</span></td>
+         </tr>
+         <tr>
+            <td colspan="2" style="text-align: center;"> <span style="display: none;" id = "msg3">비밀번호는 공백 없이 입력해주세요.</span></td>
+         </tr>
+         <tr>  
+            <td colspan="2" style="text-align: center;"><span style="display: none;" id = "msg4">비밀번호는 영문,숫자, 특수문자를 혼합하여 입력해주세요</span></td>
          </tr>
          <tr>
             <td class="form_modify_text" align='right'>패스워드 확인</td>
             <td><input class="form_modify_input" type="password" id="pwOk" name='pwOk' placeholder='pw 입력' /></td>
-                     <span style="display: none;" id = "msg5">두 패스워드가 맞지 않습니다.</span>
+                     <td><span style="display: none;" id = "msg5">두 패스워드가 맞지 않습니다.</span></td>
          </tr>
          <tr>
             <td class="form_modify_text" align='right' height=40>E-Mail</td>
